@@ -1,26 +1,42 @@
 #main-doc {
-  height: 100%;
-  width: 100%;
-  scroll-behavior: smooth;
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
 }
 
 .main-section {
-  width: 100%;
+    width: 100%;
 }
 
 #navbar {
-  position: fixed;
-  min-width: 290px;
-  top: 0px;
-  left: 0px;
-  width: 300px;
-  height: 100%;
-  border-right: solid;
-  border-color: rgba(0, 22, 22, 0.4);
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
 }
 
 @media screen and (max-width: 720px) {
-  body {
-    background-color: lightgreen;
-  }
+    body {
+        background-color: lightgreen;
+    }
 }
